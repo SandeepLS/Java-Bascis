@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Main 
+{
+    public static void main(String args[])
+    {
+       int num;
+       
+       System.out.println("Enter an Intiger Number:");
+       
+       Scanner scan = new Scanner(System.in);
+       num=scan.nextInt();
+       
+       if(num%2 ==0)
+       {
+           System.out.println(num+"is Enen number");
+       }
+       else
+       System.out.println(num+"is Odd number");
+    }
+}
