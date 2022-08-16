@@ -1,0 +1,52 @@
+/*Two condition is their:1)It divisible by 400
+                         2)It divisible by 4 but not 100*/
+
+class Main 
+{
+    public static void main(String args[])
+    {
+        int year=1500;
+        if(year%4==0)
+        {
+            if(year%100==0)
+            {
+                if(year%400==0)
+                {
+                    System.out.println("Leap Year");
+                }
+                else
+                {
+                    System.out.println("It is not a Leap Year");
+                }
+                
+            }
+            else
+            {
+                System.out.println("Leap year");
+            }
+            
+        }
+        else
+        {
+            System.out.println("It is not a Leap Year");
+        }
+    }
+}
+
+//Another Method
+
+class Main 
+{
+    public static void main(String args[])
+    {
+       int year=1500;
+       if(year%400==0 || (year%4==0 && year%100 != 0))
+       {
+           System.out.println("Leap Year");
+       }
+       else
+       {
+            System.out.println("it is not a Leap Year");   
+       }
+    }
+}
