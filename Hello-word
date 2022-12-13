@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine(); //string line
+        // String str = sc.next(); //string word
+        // String str = sc.nextChar(); //one char
+        // String str = sc.nextInt(); // int type/ Double/ Long/ Short
+
+        System.out.println("Hello, World.");
+        System.out.println(str);
+    }
+}
