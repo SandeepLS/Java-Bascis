@@ -1,0 +1,16 @@
+1)Print 5 String user input:-
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+	    String s=sc.nextLine();
+	   
+	    for(int a=1;a<=5;a++)
+	    {
+	     System.out.println(s);
+	    }
+	}
+}
+
