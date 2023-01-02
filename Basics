@@ -14,7 +14,9 @@ public class Main
 	}
 }
 
-2)Input User 5:-it print 6 and 4
+2)Postfix and Prefix:-
+Input User 5:-it print 6 and 4
+
 import java.util.Scanner;
 
 public class Main {
