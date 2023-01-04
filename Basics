@@ -75,3 +75,23 @@ public class Program {
         }
     }
 }
+
+5)Factorial Number:-While Loop :-o/p:6
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+            int  number = scanner.nextInt();
+            int fact = 1;
+            int i=1;
+            //your code goes here
+            while(i <= number)
+            {
+                fact=fact*i;
+                i++;
+            }
+            System.out.println(fact);               
+    }
+}
